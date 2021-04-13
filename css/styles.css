@@ -1,0 +1,709 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size:1rem;
+}
+
+.index-body {
+    background-color: #f5f7eb;
+}
+
+.home {
+    padding-left: 1.5rem;
+}
+
+.logo-mobile {
+    width: 100%;
+    margin-top: 1%;
+}
+
+.portfolio {
+    font-family: 'Roboto', 'Noto Sans', 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: 35%;
+    margin-top: -16%;
+}
+
+.about {
+    margin-left: 22%;
+    margin-right: 20%;
+}
+
+.linkedin {
+    margin-left: 22%;
+    margin-right: 20%;
+    
+}
+
+.linkedin a {
+    color: black;
+}
+
+.illu-body {
+    background-color: white;
+}
+
+.illu-header {
+    font-family: 'Roboto', 'Noto Sans', 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.illu-description {
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+}
+
+.illu-1 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.illu-2 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.illu-3 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.illu-4 {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.illu-5 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.illu-6 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.illu-7 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.illu-8 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.illu-9 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.gd-1 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.gd-2 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.gd-3 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.gd-4 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.gd-5 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.gd-6 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.br-1 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.br-2 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.br-3 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.br-4 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.br-5 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.typ-description {
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.typ-1 {
+    width: 100%;
+    height: auto;
+}
+
+.ux-1 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.ux-2 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.ux-3 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+.ux-4 {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.ux-5 {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+}
+
+/* LIGHTBOX BACKGROUND COLOR */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 90px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: white;
+}
+
+/* LIGHTBOX CONTENT */
+.modal-content {
+  position: relative;
+  background-color: white;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 480px;
+}
+
+/* CLOSE BUTTON */
+.close {
+  color: black;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* NEXT AND BEFORE BUTTONS */
+    
+.next {
+      cursor: pointer;
+      position: absolute;
+      top: 55%;
+      width: auto;
+      padding: 18px;
+      margin-top: -55px;
+      color: black;
+      font-weight: bold;
+      font-size: 42px;
+      transition: 0.5s ease;
+      border-radius: 0 2px 5px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+.next {
+    right: -9%;
+    font-size: 35px;
+}
+ .prev {
+      cursor: pointer;
+      position: absolute;
+      top: 55%;
+      width: auto;
+      padding: 18px;
+      margin-top: -55px;
+      color: black;
+      font-weight: bold;
+      font-size: 42px;
+      transition: 0.5s ease;
+      border-radius: 0 2px 5px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+.prev {
+    left: -9%;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.contact-header {
+    font-family: 'Roboto', 'Noto Sans', 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 5%;
+}
+.box {
+    background-color: #F5F5F5;
+    display: inline-block;
+    border-color: #DDD;
+    font-family: 'Roboto', 'Noto Sans', 'Open Sans', sans-serif;  
+}
+
+
+.formsheet {
+    max-width: 50rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: #f5f5f5;
+    border-radius: 0.2rem;
+    border-style: solid;
+    border-width: thin;
+    border-color: #DDD;
+}
+
+
+input[type=email]{
+    padding: 0.5rem;
+}
+
+label[type=fname] {
+    
+}
+
+#message {
+    width: 100%;
+    opacity: 100%;
+    height: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.9rem;
+    border-radius: 0.2rem;
+    border-color: #DDD;
+}
+
+#fname {
+    width: 100%;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.9rem;
+    border-radius: 0.2rem;
+    border-style: solid;
+    border-width: thin;
+    border-color: #DDD;
+}
+
+#email {
+    width: 100%;
+    height: 2rem;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 0.2rem;
+    border-style: solid;
+    border-width: thin;
+    border-color: #DDD;
+}
+
+form label {
+    margin-top: 2rem;
+    font-family: 'Roboto', 'Noto Sans', 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', 'Noto Sans', 'Open Sans', sans-serif;
+}
+
+#submit{
+  font-family: 'Roboto', 'Noto Sans', 'Open Sans', sans-serif;
+  font-size: 1rem;
+  color: white; 
+  display: block;
+  background-color: #6293f0;
+  height: 2rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border-color: none;
+  margin-bottom: 2em;
+  margin-top: 2rem;
+  text-align: center;
+  border-radius: 0.2rem;
+  border-style: solid;
+  border-width: thin;
+  border-color: #6293f0;
+}
+
+
+/*
+footer {
+    position: relative;
+    background-color: black;
+    padding-top: 1rem;
+    bottom: -5rem;;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    }
+
+footer p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-right: 0.6rem;
+    margin-bottom: 0 auto;
+}
+
+.socialicons{
+    width: 7%;
+    margin-right: 2em;
+}
+
+.pinterest {
+    width: 6.5%;
+    margin-left: 1em;
+}
+
+#response {
+    font-size: 1rem;
+}
+*/
+
+
+@media only screen and (min-width: 35rem){
+/*
+    
+   body {
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position:center; 
+        height: auto;
+        margin: 0 auto;
+}
+*/
+        .logo-mobile {
+        width: 29%;
+        margin-top: -2%;
+        margin-left: 35.5%;
+       }
+    
+        .portfolio {
+        font-size: 1.6rem;
+        font-weight: regular;
+        margin-left: 44%;
+        margin-top: -6%;
+       }   
+    
+        .about {
+        font-size: 0.9rem;
+        margin-left: 44%;
+        margin-right: 42%;
+       }
+    
+        .linkedin {
+        margin-left: 44%;
+        margin-right: 42%;
+       }
+    
+        .illu-1 {
+        width: 50%;
+        margin-top: 4%;
+        margin-left: 25%;
+        }   
+
+        .illu-2 {
+            width: 50%;
+            margin-top: 4%;
+            margin-left: 25%;
+        }
+
+        .illu-3 {
+            width: 50%;
+            margin-top: 4%;
+            margin-left: 25%;
+        }
+
+        .illu-4 {
+            width: 50%;
+            margin-top: 5%;
+            margin-left: 25%;
+        }
+
+        .illu-5 {
+            width: 50%;
+            margin-top: 4%;
+            margin-left: 25%;
+        }
+
+        .illu-6 {
+            width: 50%;
+            margin-top: 4%;
+            margin-left: 25%;
+        }
+
+        .illu-7 {
+            width: 50%;
+            margin-top: 4%;
+            margin-left: 25%;
+        }
+
+        .illu-8 {
+            width: 50%;
+            margin-top: 4%;
+            margin-left: 25%;
+        }
+
+        .illu-9 {
+            width: 50%;
+            margin-top: 4%;
+            margin-left: 25%;
+        }
+
+        .gd-1 {
+            width: 60%;
+            height: auto;
+            margin-top: 1%;
+            margin-left: 22%
+        }
+
+        .gd-2 {
+            width: 67%;
+            height: auto;
+            margin-top: 2%;
+            margin-left: 16%;
+        }
+
+        .gd-3 {
+            width: 60%;
+            height: auto;
+            margin-top: 4%;
+            margin-left: 19%;
+        }
+
+        .gd-4 {
+            width: 30%;
+            height: auto;
+            margin-top: 3%;
+            margin-left: 19%;
+        }
+
+        .gd-5 {
+            width: 27%;
+            height: auto;
+            margin-top: 3%;
+            margin-left: 2.5%;
+        }
+
+        .gd-6 {
+            width: 60%;
+            height: auto;
+            margin-top: 3%;
+            margin-left: 19%;
+        }
+        
+        .br-1 {
+            width: 60%;
+            height: auto;
+            margin-top: 1%;
+            margin-left: 22%
+        }
+
+        .br-2 {
+            width: 60%;
+            height: auto;
+            margin-top: 2%;
+            margin-left: 22%;
+        }
+
+        .br-3 {
+            width: 60%;
+            height: auto;
+            margin-top: 4%;
+            margin-left: 22%;
+        }
+
+        .br-4 {
+            width: 60%;
+            height: auto;
+            margin-top: 3%;
+            margin-left: 22%;
+        }
+
+        .br-5 {
+            width: 60%;
+            height: auto;
+            margin-top: 3%;
+            margin-left: 22%;
+        }
+    
+        .ux-1 {
+            width: 50%;
+            margin-top: 4%;
+            margin-left: 25%;
+        }   
+
+        .ux-2 {
+            width: 60%;
+            margin-top: 4%;
+            margin-left: 25%;
+        }
+
+        .ux-3 {
+            width: 50%;
+            margin-top: 4%;
+            margin-left: 25%;
+        }
+
+        .ux-4 {
+            width: 50%;
+            margin-top: 5%;
+            margin-left: 25%;
+        }
+
+        .ux-5 {
+            width: 50%;
+            margin-top: 4%;
+            margin-left: 25%;
+        }
+    
+        
+        .typ-description {
+            margin-left: 30%;
+            margin-right: 30%;
+        }  
+    
+        .typ-1 {
+            width: 60%;
+            height: auto;
+            margin-left: 20%;
+        }
+    
+        .formsheet {
+            display: block;
+            padding-left: 3rem;
+            padding-right: 3rem;
+    }
+    
+    
+        .formsheet div:first-child{
+            margin-right: 1.4%;
+    }   
+
+    
+        .box {
+            width: 48%;
+            font-family: arial, helvetica, helvetica neue, sans-serif; 
+
+        }
+        .boxmessage{
+            width: 100%;
+        }
+
+        #response {
+            margin: auto;
+        }
+
+
+        #message {
+            width: 100%;
+            height: 5rem;
+        }   
+
+        #fname {
+
+            display: inline-block;
+
+        }
+
+        form label {
+             font-family: arial, helvetica, helvetica neue, sans-serif; 
+        }
+
+
+        #email{
+            height: 2rem;
+        }
+
+        .emailbox{
+            width: 100%;
+            display: inline-block;
+
+        }
+
+        #submit {
+            width: 6rem;
+        }
+}
+
+
+    
+    
